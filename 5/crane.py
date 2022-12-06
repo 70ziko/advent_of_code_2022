@@ -38,7 +38,7 @@ def CrateMover9000(crates, procedure):
     
     # print(crates)
 
-    # DataFrame to list
+    # DataFrame to list with raws -> columns
     crates_list = []
     for i in range(len(crates) + 1):    # The +1 is stupid and needs fixing XD 
         crates_list.append(crates[i].tolist())
